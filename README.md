@@ -1,4 +1,4 @@
-# Restaurant Management System
+# The Blue Hut - Restaurant Management System
 
 ## Project Overview
 
