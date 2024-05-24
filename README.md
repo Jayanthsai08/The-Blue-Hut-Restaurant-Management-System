@@ -37,4 +37,35 @@ The Restaurant Management System is a comprehensive solution designed to streaml
    ```sh
    git clone https://github.com/Jayanthsai08/The-Blue-Hut-Restaurant-Management-System.git
    cd restaurant-management-system
+2. **Setup the Database**
+   - Create a new MySQL database.
+   - Import the provided SQL file (`new-food-order.sql`) into the database.
+     ```sh
+     mysql -u username -p database_name < new-food-order.sql
+     ```
+3. **Configure the Application**
+   - Update the database configuration in `config.php`.
+     ```php
+     define('DB_SERVER', 'localhost');
+     define('DB_USERNAME', 'your_username');
+     define('DB_PASSWORD', 'your_password');
+     define('DB_NAME', 'your_database_name');
+     ```
+4. **Start the Server**
+   - Ensure the Apache server is running and the project directory is accessible.
+   - Open the project in your web browser.
+     ```sh
+     http://localhost/restaurant
+     ```
+## Contributing
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit them (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Create a pull request.
 
+
+## Contact
+For any questions or feedback, please contact [jayanthsaichethan@gmail.com](mailto:jayanthsaichethan@gmail.com).
+```
