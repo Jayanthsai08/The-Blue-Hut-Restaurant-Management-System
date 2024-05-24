@@ -35,6 +35,6 @@ The Restaurant Management System is a comprehensive solution designed to streaml
 ### Steps
 1. **Clone the Repository**
    ```sh
-   git clone https://github.com/yourusername/restaurant-management-system.git
+   git clone https://github.com/Jayanthsai08/The-Blue-Hut-Restaurant-Management-System.git
    cd restaurant-management-system
 
